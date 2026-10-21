@@ -3,54 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Uma breve descrição do que é o  website que os mecanismos de pesquisa PODEM usar -->
+    <meta name="description" content="Clube de cachorros fofinhos">
     <title>Clube Patinhas </title>
 </head>
 <body>
-    <h1> Clube Patinhas </h1> <!-- h1 é uma tag de título -->
-    <!-- Um unico h1 por pagina: o assunto principal -->
-    <!-- Existem 6 níveis de título, do h1 ao h6 -->
-    <!-- Não se pula ordem: depois de h1, vem um h2, depois h3 etc. -->
-    <h2> Como cuidar</h2>
-    <h3> Alimentação</h3>
-    <p> Escove os dentes <em>só com pasta para cães</em>.</p>
-    <h3> Passeios</h3>
-    <p> Filhotes so passeiam <strong>com as vacinas em dia</strong>.</p>
-    <!-- A tag p é para parágrafo de texto  -->
-    <!-- A tag strong é para uso de negrito e em para italico -->
+    <header>
+        <h1> Clube Patinhas </h1> <!-- h1 é uma tag de título -->
+        <!-- Um unico h1 por pagina: o assunto principal -->
+        <!-- Existem 6 níveis de título, do h1 ao h6 -->
+        <!-- Não se pula ordem: depois de h1, vem um h2, depois h3 etc. -->
+    </header>
+    <main>
+        <h2> Como cuidar</h2>
+        <p> Um cachorro saudavel precisa de comida certa, água fresca, passeios e carinho.</p>
+        <h3> Alimentação</h3>
+        <p>Ofereça ração adequada a idade e ao porte do cão e deixe sempre água limpa a disposição.</p>
+        <p> Escove os dentes <em>só com pasta para cães</em>.</p>
+        <ul>
+            <li>Filhotes comem várias vezes ao dia, em porções pequenas.</li>
+            <li>Adultos comem duas vezes ao dia.</li>
+            <li>Alguns alimentos humanos fazem mal aos cães:</li>
+            <ul>
+                <li>Chocolate</li>
+                <li>uva e uva passa</li>
+                <li>Cebola e Alho</li>
+            </ul>
+        </ul>
+        <h3> Passeios</h3>
+        <p> Filhotes so passeiam <strong>com as vacinas em dia</strong>.</p>
+        <!-- A tag p é para parágrafo de texto  -->
+        <!-- A tag strong é para uso de negrito e em para italico -->
+        <p> Passeios são importantes porque gastam energia, fortalece os musculos e ajuda o cão a conviver com outras pessoas e animais.</p>
+        <ol>
+            <li>Pegar a guia</li>
+            <li>Passear, de preferencia fora dos horários mais quentes.</li>
+            <li> Dar água ao voltar para casa.</li>
+        </ol>
+        <!-- Lista não ordenada -->
+        <!-- A tag ol abre a lista e li são os elementos desta lista -->
 
-    <ol>
-        <li>Pegar a guia</li>
-        <li>Passear</li>
-        <li> Dar água</li>
-    </ol>
-    <!-- Lista não ordenada -->
-     <!-- -->
 
+        <h2> Raças</h2>
+        <ul>
+            <li>Beagle</li>
+            <li>Pastor Alemão</li>
+            <li>Husky</li>
+        </ul>
+        <!-- Lista não ordenada -->
+        <!-- A tag ul abre a lista e li são os elementos desta lista -->
 
-    <h2> Raças</h2>
-    <ul>
-        <li>Beagle</li>
-        <li>Poodle</li>
-        <li>Vira-lata</li>
-    </ul>
-    <!-- Lista não ordenada -->
-    <!-- A tag ul abre a lista e li são os elementos desta lista -->
+        <!-- Utilizamos figure quando a imagem que inserirmos no website tiver relação direta com um texto dele. Por exemplo: em trabalhos que comentam sobre dados estatisticos e, no texto, informam "vide grafico/ imagem/ tabela a seguir". Quando a imagem no website é meramente ilustrativa, utilizamos somente o img -->
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvaOZgsdf_iznE9OJMju5DFjchVHHZl0hAh_6OZvwG3Q&s=10" alt="Beagle comum usando coleira da Barbie com a lingua para fora." height="400" width="600">
+            <figcaption>Beagle comum.</figcaption>
+        </figure>
 
+        <dl>
+            <dt> Filhote </dt>
+            <dd> Cão com menos de um ano. </dd>
+        </dl>
+        <!-- Usado para criar uma definição -->
+        <!-- A tag dt é para título e dd para descrição-->
 
-    <dl>
-        <dt> Filhote </dt>
-        <dd> Cão com menos de um ano. </dd>
-    </dl>
-    <!-- Usado para criar uma definição -->
-    <!-- A tag dt é para título e dd para descrição-->
+        <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target="_blank" rel="noopener noreferrer">Sobre cães - Wikipédia</a>
+        <!-- A tag a é para criar links -->
+        <!-- No atributo href, colocamos o endereço da página que queremos redirecionar -->
+        <!-- O atributo target é usado para indicar se, ao clicar no link, a página abrirá na mesma aba/janela ou em uma nova aba/janela -->
+        <!-- O atributo rel="noopener noreferrer" define que, ao clicar no link e abrir uma nova aba, ele não poderá manipular a aba original (reverse tabnabbing) e impedirá que o site de destino saiba de qual pagina veio o tráfego original -->
+        <br>
+        <img src="caramelo.jpg" alt="Um cachorro caramelo, representante oficial do Brasil." height="200" width="350">
 
-    <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target="_blank" rel="noopener noreferrer">Sobre cães - Wikipédia</a>
-    <!-- A tag a é para criar links -->
-    <!-- No atributo href, colocamos o endereço da página que queremos redirecionar -->
-    <!-- O atributo target é usado para indicar se, ao clicar no link, a página abrirá na mesma aba/janela ou em uma nova aba/janela -->
-    <!-- O atributo rel="noopener noreferrer" define que, ao clicar no link e abrir uma nova aba, ele não poderá manipular a aba original (reverse tabnabbing) e impedirá que o site de destino saiba de qual pagina veio o tráfego original -->
+        <h2> Passeio da semana</h2>
+        <table border="1">
+            <tr>
+                <th>Cachorro</th>
+                <th>Raça</th>
+                <th>Passeios</th>
+            </tr>
+            <tr>
+                <td>Rex</td>
+                <td>Pastor Alemão</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Gudan</td>
+                <td>Husky</td>
+                <td>3</td>
+            </tr>
+        </table>
 
-    <img src="caramelo.jpg" alt="Um cachorro caramelo, representante oficial do Brasil.">
+        <form>
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="email"> E-mail:</label>
+            <input type="email" id="email" name="email">        
+            <br>
+            <label for="mensagem"> Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <!-- A tag textarea é uma área de digitação para textos longos -->
+            <!-- O button type="submit" tem função de, quando clicado, enviar os dados do formulário para o servidor -->
+        </form>
+        <!-- Label é o titulo do campo do formulario-->
+        <!-- Input é o espaço criado para você digitar a informação -->
+        <!-- Atenção para os atributos id e name . O atributo id vai funcionar como um CPF: cada elemento do HTML possui seu proprio CPF. Isto vai nos ajudar depois, para encontrar estes elementos no JavaScript. O nome é importante quando vamos enviar os dados do formulario para gravação, pois ele define o 'nome da variavel' que vai armazenar o dado-->
+    </main>
+    <footer>
+        <p> Clube Patinhas - Site criado para fins educativos.</p>
+        <p>&copy; 2026 Clube Patinhas. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
